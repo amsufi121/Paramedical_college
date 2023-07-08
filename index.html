@@ -1,64 +1,215 @@
-<Html>  
-<head>   
-<title>  
-Registration Page  
-</title>  
-</head>  
-<body bgcolor="Lightskyblue">  
-<br>  
-<br>  
-<form>  
-  
-<label> Firstname </label>         
-<input type="text" name="firstname" size="15"/> <br> <br>  
-<label> Middlename: </label>     
-<input type="text" name="middlename" size="15"/> <br> <br>  
-<label> Lastname: </label>         
-<input type="text" name="lastname" size="15"/> <br> <br>  
-  
-<label>   
-Course :  
-</label>   
-<select>  
-<option value="Course">Course</option>  
-<option value="BCA">BCA</option>  
-<option value="BBA">BBA</option>  
-<option value="B.Tech">B.Tech</option>  
-<option value="MBA">MBA</option>  
-<option value="MCA">MCA</option>  
-<option value="M.Tech">M.Tech</option>  
-</select>  
-  
-<br>  
-<br>  
-<label>   
-Gender :  
-</label><br>  
-<input type="radio" name="male"/> Male <br>  
-<input type="radio" name="female"/> Female <br>  
-<input type="radio" name="other"/> Other  
-<br>  
-<br>  
-  
-<label>   
-Phone :  
-</label>  
-<input type="text" name="country code"  value="+91" size="2"/>   
-<input type="text" name="phone" size="10"/> <br> <br>  
-Address  
-<br>  
-<textarea cols="80" rows="5" value="address">  
-</textarea>  
-<br> <br>  
-Email:  
-<input type="email" id="email" name="email"/> <br>    
-<br> <br>  
-Password:  
-<input type="Password" id="pass" name="pass"> <br>   
-<br> <br>  
-Re-type password:  
-<input type="Password" id="repass" name="repass"> <br> <br>  
-<input type="button" value="Submit"/>  
-</form>  
-</body>  
-</html>  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Matoshri Dr Kanchan Shantilalji Desarda College ; DMLT, P.G.DMLT , Radiology , Optometry, Physiotherapy, X-ray, C.T.Scan, O.T.Technician, E.C.G">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>PARAMEDICAL COLLEGE AURANGABAD</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png" style="border: radius 50px;">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="page-selection" href="contact.html">
+  <link rel="page-selection" href="Gallery.html">
+  <link rel="page-selection" href="courses.html">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- code for Hamburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav-ele");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+      // var y = document.getElementById("yourDiv").clientWidth;
+      // if (y > 767) {
+      //     // x.style.display = 'flex';
+      // }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+
+    <body>
+      <header>
+        <div id="container">
+          <div id="head_container">
+            <div id="header-logo">
+              <a href="index.html"><img id="logo_img" src="logo.png" alt="Image-not-available"></a>
+            </div>
+            <div id="head-text">
+              <p>Matoshri Dr. Kanchan Shantilalji Desarda Mahavidhyalyas</p>
+            </div>
+          </div>
+        </div>
+        <nav id="navigation">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <div id="nav-ele">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact us</a>
+            <a href="Gallery.html">Gallery</a>
+          </div>
+
+        </nav>
+        <div class="main-box">
+          <h1>Matoshri Dr Kanchan Shantilalji Desarda College </h1>
+          <p>India's One Of The Favorite Paramedical College</p>
+          <button><a href="contact.html">ENROLL NOW</a></button>
+        </div>
+
+        <div class="container">
+          <h2>FACILITIES</h2>
+          <div class="row">
+            <div class="column">
+              <a href=""><img src="campus.jpg" alt="campus"></a>
+              <a href="">CAMPUS</a>
+            </div>
+            <div class="column">
+              <a href=""><img src="canteen.jpg" alt="canteen"></a>
+              <a href="">CANTEEN</a>
+            </div>
+            <div class="column">
+              <a href=""><img src="library.jpg" alt="library"></a>
+              <a href="">LIBRARY</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- --------------------------------------------------news section starts here---------------------------------------------- -->
+      <section class="section-letest" id="js--active-sticky">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="news-block">
+
+              <h2><img class="icon-news" src="newspaper.png">&nbsp;<span>News &
+                  Updates</span></h2>
+              <!--News start here-->
+              <div class="news">
+                <ul class="newsticker">
+                  <li class="news-item">
+                    <h4><span class="material-symbols-outlined">
+                        grade
+                        <a href=""></span> B.A Marathi & Urdu Admission Available</a></h4>
+                    <p class="p-date">8 Oct, 2022</p>
+                    <p></p>
+                  </li>
+                  <li class="news-item">
+                    <h4><span class="material-symbols-outlined">
+                        grade
+                      </span> Admission Open</h4>
+                    <p class="p-date">8 Oct, 2022</p>
+                    <p><img src="poster1.jpeg" alt="Admission Open" class="w-100" /></p>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <section class="section-yt-v">
+        <div class="container">
+          <div class="row">
+            <iframe width="950" height="415" src="https://www.youtube.com/embed/9RUBBej1tHo" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="row">
+            <iframe width="950" height="415" src="https://www.youtube.com/embed/RXmxCQBdSxc" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- --------footer starts here------------------- -->
+      <!-- ----------------new footer----------- -->
+      <footer>
+        <div class="fcontainer">
+          <div class="row">
+            <div class="col-1">
+              <img src="logo.png">
+            </div>
+
+            <div class="col-2">
+              <h4 class="f-headings">Contact</h4>
+              <ul class="icon-bunch">
+                <li id="contact1">
+                  <a href="tel:+91-9405109103"><i class="icon ion-md-call icon-small">+91-9405109103</i></a>
+                </li>
+                <li id="contact2">
+                  <a href="tel:+91-7447332085"><i class="icon ion-md-call icon-small">+91-7447332085</i></a>
+                </li>
+                <li id="contact3">
+                  <a href="mailto:mdksdinstitue@gmail.com"><i
+                      class="icon ion-ios-mail icon-small"></i>mdksdinstitue@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3">
+              <h4 class="f-headings">Institute Address</h4>
+              <p>Pahadsinghpura,Behind Bibi Ka Mukbara,Near Hanuman Tekdi, Opposite DED College,Guruganesh Nagar,
+                Aurangabad City,
+                Aurangabad-Maharashtra, Maharashtra 431001
+              </p>
+            </div>
+            <div class="col-4">
+              <h4 class="f-headings">Courses</h4>
+              <ul>
+                <li><a href="dmlt.html">DMLT</a></li>
+                <li><a href="radiology.html">Radiology</a></li>
+                <li><a href="pgdmlt.html">P.G.DMLT</a></li>
+                <li><a href="optometry.html">Optometry</a></li>
+                <li><a href="dphysiotherapy.html">Physiotherapy</a></li>
+
+              </ul>
+
+              <h4 class="f-headings">Social link</h4>
+              <div class="social-links">
+                <a href="https://www.facebook.com/ACONAurangabad"><i class="icon ion-logo-facebook social-icon"></i></a>
+                <a href="https://twitter.com/ACONAurangabad"><i class="icon ion-logo-twitter social-icon"></i></a>
+                <a href="https://www.instagram.com/gmcp_aurangabad/"><i
+                    class="icon ion-logo-instagram social-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fcontainer3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.3106608203275!2d75.3173103142791!3d19.91130943035951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb97b77f465abd%3A0x13d25fd02d5e20bd!2sDMLT%20COLLEGE%20IN%20AURANGABAD!5e0!3m2!1sen!2sin!4v1665853566188!5m2!1sen!2sin"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="fcontainer1">
+        </div>
+        <div class="fcontainer2">
+
+          <p class="cpy-txt">Copyright © 2021 Matoshree Dr Kachan Shatilalji Desarda Mahavodyalhya</p>
+
+        </div>
+
+      </footer>
+
+
+
+    </body>
+
+</html>
